@@ -11,7 +11,8 @@
           <button @click="scrollLeft(lane.id)" class="scroll-button">‹</button>
           <div class="cards" :ref="'cards-' + lane.id">
             <div v-for="(card, index) in lane.cards" :key="index" class="card">
-              {{ card }}
+              <img :src="getImagePath(card.imageUrl)" alt="Card Image" class="card-image" />
+              <div class="card-name">{{ card.name }}</div>
             </div>
           </div>
           <button @click="scrollRight(lane.id)" class="scroll-button">›</button>
@@ -38,6 +39,14 @@ export default {
     }
   },
   methods: {
+    getImagePath (imageUrl) {
+      // Check if the URL is external or internal
+      if (imageUrl.startsWith('http')) {
+        return imageUrl
+      } else {
+        return require(`@/assets/${imageUrl}`)
+      }
+    },
     scrollLeft (laneId) {
       const lane = this.$refs['cards-' + laneId][0]
       lane.scrollBy({ top: 0, left: -240, behavior: 'smooth' })
@@ -76,8 +85,8 @@ export default {
   mounted () {
     const laneMargin = 3 * 96 // 3 inches in pixels (assuming 96 DPI)
     this.lanes.forEach(lane => {
-      lane.width = window.innerWidth - laneMargin * 2
-      lane.height = 500
+      lane.width = 1000
+      lane.height = 450
       lane.top = laneMargin
       lane.left = laneMargin
     })
@@ -97,6 +106,7 @@ export default {
     border-radius: 5px;
     cursor: grab;
     box-sizing: border-box;
+    background-color: rgba(0,0,0,0);
   }
 
   .lane:active {
@@ -112,26 +122,39 @@ export default {
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: center;
   }
 
   .cards {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    max-width: calc(100% - 80px); /* Adjust based on the lane width */
+    max-width: calc(100% - 80px);
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    transition: border 0.3s ease;
   }
 
   .card {
-    flex: 0 0 240px; /* Width of UNO card */
-    height: 336px; /* Height of UNO card */
+    flex: 0 0 240px;
+    height: 336px;
     margin-right: 10px;
-    padding: 10px;
+    padding: 0px;
     background-color: #f0f0f0;
     border-radius: 5px;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .card:hover {
+  border: 2px solid #1122dc;
+}
+
+  .card img.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .scroll-button {
