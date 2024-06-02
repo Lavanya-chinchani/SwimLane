@@ -8,22 +8,22 @@ This project showcases a responsive swim lane component with scrollable image ca
 
 # Hardware requirements
 
-Processor: Dual-core CPU (Intel i3 or equivalent) or higher
-Memory: 4 GB RAM minimum (8 GB recommended)
-Storage: 100 MB of available disk space for the project files
-Display: 1024x768 resolution minimum
+* Processor: Dual-core CPU (Intel i3 or equivalent) or higher
+* Memory: 4 GB RAM minimum (8 GB recommended)
+* Storage: 100 MB of available disk space for the project files
+* Display: 1024x768 resolution minimum
 
 # Software requirements
-Operating System: Windows 7/8/10/11, macOS, or Linux
-Node.js: Version 14.x or higher
-npm: Version 6.x or higher (comes with Node.js)
-Vue CLI: Version 4.x or higher
+* Operating System: Windows 7/8/10/11, macOS, or Linux
+* Node.js: Version 14.x or higher
+* npm: Version 6.x or higher (comes with Node.js)
+* Vue CLI: Version 4.x or higher
 
 # Development tools
-Code Editor: Visual Studio Code, Sublime Text, or any text editor of your choice
-Web Browser: Latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari
+* Code Editor: Visual Studio Code, Sublime Text, or any text editor of your choice
+* Web Browser: Latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari
 
 # Dependencies
-Vue.js: Version 2.x or higher
-Webpack: Included in Vue CLI
-Babel: Included in Vue CLI
+* Vue.js: Version 2.x or higher
+* Webpack: Included in Vue CLI
+* Babel: Included in Vue CLI
