@@ -31,12 +31,15 @@ This project showcases a responsive swim lane component with scrollable image ca
 **Getting Started**
 
 * Clone the repository/Download the zip file
+  
    * First, clone/download zip the repository to your local machine using Git. Open your terminal or command prompt and run:
      ```
      git clone <repository-url>
      ```
      url:https://github.com/Lavanya-chinchani/SwimLane/
+     
 * Navigate to the Project Directory
+  
   * Change to the project directory:
     ```
     cd <project-directory>
