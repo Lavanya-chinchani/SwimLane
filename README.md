@@ -36,7 +36,7 @@ This project showcases a responsive swim lane component with scrollable image ca
      ```
      git clone <repository-url>
      ```
-     url:https://github.com/Lavanya-chinchani/SwimLane/
+     url: https://github.com/Lavanya-chinchani/SwimLane/
      
 * Navigate to the Project Directory
   
@@ -57,4 +57,12 @@ This project showcases a responsive swim lane component with scrollable image ca
   npm run serve
   ```
   This will start the server and you should see output indicating that the server is running at http://localhost:8080
+
+## Deployment on NETLIFY
+```
+Website URL:       https://lively-dusk-32352c.netlify.app
+Unique deploy URL: https://665c8d6ce7f8116a0def4e42--lively-dusk-32352c.netlify.app
+Build logs:        https://app.netlify.com/sites/lively-dusk-32352c/deploys/665c8d6ce7f8116a0def4e42
+
+```
 
