@@ -96,7 +96,10 @@ export default {
 
   <style>
   .swim-lane {
-    position: relative;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   }
 
   .lane {

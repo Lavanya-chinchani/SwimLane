@@ -65,6 +65,6 @@ export default {
   align-items: center;
   width: 100%;
   height: 100%; /* Ensure it takes full height of the viewport */
-  flex-direction: column; /* Ensures vertical centering */
+
 }
 </style>
