@@ -35,6 +35,11 @@ This project showcases a responsive swim lane component with scrollable image ca
      ```
      git clone <repository-url>
      ```
-     url
+     url:https://github.com/Lavanya-chinchani/SwimLane/
+* Navigate to the Project Directory
+  * Change to the project directory:
+    ```
+    cd <project-directory>
+    ```
   
 
