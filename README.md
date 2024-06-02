@@ -63,6 +63,7 @@ This project showcases a responsive swim lane component with scrollable image ca
 Website URL:       https://lively-dusk-32352c.netlify.app
 Unique deploy URL: https://665c8d6ce7f8116a0def4e42--lively-dusk-32352c.netlify.app
 Build logs:        https://app.netlify.com/sites/lively-dusk-32352c/deploys/665c8d6ce7f8116a0def4e42
+Function logs:     https://app.netlify.com/sites/lively-dusk-32352c/functions
 
 ```
 
