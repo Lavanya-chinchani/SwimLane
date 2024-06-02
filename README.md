@@ -41,5 +41,17 @@ This project showcases a responsive swim lane component with scrollable image ca
     ```
     cd <project-directory>
     ```
-  
+* Install Dependencies
+     ```
+     npm install
+     ```
+* Fix Error
+    ```
+    npm run lint -- --fix
+    ```
+* Run the Development Server
+  ```
+  npm run serve
+  ```
+  This will start the server and you should see output indicating that the server is running at http://localhost:8080
 
