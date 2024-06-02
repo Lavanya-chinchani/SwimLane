@@ -23,7 +23,14 @@ This project showcases a responsive swim lane component with scrollable image ca
 * Code Editor: Visual Studio Code, Sublime Text, or any text editor of your choice
 * Web Browser: Latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari
 
-# Dependencies
+## Dependencies
 * Vue.js: Version 2.x or higher
 * Webpack: Included in Vue CLI
 * Babel: Included in Vue CLI
+
+## Getting Started
+
+* Clone the repository/Download the zip file
+  First, clone/download zip the repository to your local machine using Git. Open your terminal or command prompt and run:
+  
+
